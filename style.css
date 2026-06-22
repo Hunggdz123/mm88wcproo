@@ -256,17 +256,17 @@
                 margin-top: -50px;
             }
             .circle-wrapper {
-                width: 134px;
-                height: 134px;
+                width: 280px;
+                height: 280px;
                 margin: 0 auto 48px;
             }
             .logo-center {
-                width: 91px;
-                height: 91px;
-                min-width: 91px;
-                min-height: 91px;
-                max-width: 91px;
-                max-height: 91px;
+                width: 280px;
+                height: 280px;
+                min-width: 280px;
+                min-height: 280px;
+                max-width: 280px;
+                max-height: 280px;
             }
             .service-card {
                 padding: 36px 18px 48px;
