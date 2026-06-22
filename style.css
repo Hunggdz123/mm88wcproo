@@ -243,39 +243,50 @@
         }
 
         /* Responsive - Tablet và Desktop nhỏ */
-        @media (max-width: 1200px) {
-            .services { 
-                grid-template-columns: repeat(2, 1fr);
-                gap: 30px;
-            }
-            .container {
-                padding: 24px 32px 48px;
-                margin-top: -80px;
-            }
-            .banner-wrapper {
-                margin-top: -50px;
-            }
-            .circle-wrapper {
-                width: 280px;
-                height: 280px;
-                margin: 0 auto 48px;
-            }
-            .logo-center {
-                width: 280px;
-                height: 280px;
-                min-width: 280px;
-                min-height: 280px;
-                max-width: 280px;
-                max-height: 280px;
-            }
-            .service-card {
-                padding: 36px 18px 48px;
-            }
-        }
-            .hero-image {
-    margin-top: 100px !important;
+        /* Responsive - Tablet và Mobile */
+@media (max-width: 1200px) {
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .container {
+        padding: 24px 16px 48px;
+        margin-top: -80px;
+    }
+
+    .banner-wrapper {
+        margin-top: -50px;
+    }
+
+    .circle-wrapper {
+        width: 160px;
+        height: 160px;
+        margin: 0 auto 30px;
+    }
+
+    .logo-center {
+        width: 160px;
+        height: 160px;
+        min-width: 160px;
+        min-height: 160px;
+        max-width: 160px;
+        max-height: 160px;
+    }
+
+    .service-card {
+        padding: 30px 10px 30px;
+    }
+
+    .service-card h3 {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
 }
 
+.hero-image {
+    margin-top: 100px !important;
+}
 /* Hero image: default and responsive sizes */
 .hero-img {
     width: 60%;
@@ -323,12 +334,12 @@
                 margin: 0 auto 40px;
             }
             .logo-center {
-                width: 82px;
-                height: 82px;
-                min-width: 82px;
-                min-height: 82px;
-                max-width: 82px;
-                max-height: 82px;
+                width: 160px;
+                height: 160px;
+                min-width: 160px;
+                min-height: 160px;
+                max-width: 160px;
+                max-height: 160px;
             }
             .service-card {
                 padding: 30px 18px 42px;
@@ -378,12 +389,12 @@
                 margin: 0 auto 16px;
             }
             .logo-center {
-                width: 54px;
-                height: 54px;
-                min-width: 54px;
-                min-height: 54px;
-                max-width: 54px;
-                max-height: 54px;
+                width: 150px;
+                height: 150px;
+                min-width: 150px;
+                min-height: 150px;
+                max-width: 150px;
+                max-height: 150px;
             }
             .service-card {
                 padding: 16px 8px 24px;
